@@ -1,0 +1,33 @@
+{
+  "name": "lispeakerios",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@apollo/react-ssr": "^3.1.5",
+    "@zeit/next-css": "^1.0.1",
+    "apollo": "^2.27.3",
+    "apollo-boost": "^0.4.7",
+    "async": "^3.2.0",
+    "emotion": "^10.0.27",
+    "graphql": "^15.0.0",
+    "graphql-anywhere": "^4.2.6",
+    "graphql-request": "^1.8.2",
+    "graphql-tag": "^2.10.3",
+    "isomorphic-fetch": "^2.2.1",
+    "next": "9.2.2",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-circular-input": "^0.1.7",
+    "react-dom": "^16.13.1",
+    "react-event-listener": "^0.6.6",
+    "react-rangeslider": "^2.2.0",
+    "styled-components": "^5.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
