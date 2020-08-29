@@ -1,0 +1,448 @@
+
+
+html{
+    font-family: 'SF Pro', Helvetica, Arial, san-serif;
+    font-family: 'SF Compact text', Helvetica, Arial, san-serif;
+    background: linear-gradient(180deg, rgba(67,26,185,1) 0%, rgba(15,2,17,1) 100%);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.speco{
+    background: rgb(17, 17, 17);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+a, a:visited{
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    margin: 0px;
+}
+.navbar{
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 60px;
+    text-align: center;
+    height: 40px;
+    width: 100%;
+
+}
+.navele{
+    display: inline;
+    
+    
+}
+.navele:nth-child(2){
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.navele:nth-child(1){
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 24px;
+    
+}
+.naveleyes{
+    border-radius: 100px;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #2F94FF;
+}
+
+.back{
+    position: absolute;
+    left: 20px;
+    top: 58px;
+    font-size: 20px;
+}
+
+
+.cardscontainer{
+}
+
+.cardscontainer *{
+    margin-bottom: 15px;
+}
+
+.incardtitle{
+    position: absolute;
+    font-size: 17px;
+    font-weight: 500;
+    left: 23px;
+}
+
+.newpreset{
+    height: 66px;
+    width: 100%;
+    border-radius: 24px;
+    background: linear-gradient(90deg, rgba(255,0,207,1) 0%, rgba(162,109,215,1) 100%);
+    position: relative;
+}
+
+.newpreset .incardtitle{
+   
+
+    top: 50%;
+    transform: translate(0%, -50%);
+    
+}
+
+.newpreset .icon{
+    position: absolute;
+
+    top: 25px; 
+
+    right: 23px;
+    font-weight: 500;
+}
+
+.themes{
+    position: relative;
+    height: 290px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 24px;
+}
+.carcon{
+    position: absolute;
+    left: 50%; 
+    top: 18px;
+    transform: translate(-50%, 0%);
+    
+    width: 85%;
+
+    
+}
+.carcon *{
+    position: absolute;
+    background: linear-gradient(45deg, #FF0092 0%, #FF00FE 100%);
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+
+}
+.states{
+    position: absolute;
+    right: 0px;
+}
+.themedes{
+    
+    position: absolute;
+    bottom: -16px;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.445);
+    backdrop-filter: blur(5px);
+    border-radius: 0px 0px 24px 24px;
+}
+.themes .incardtitle{
+    top: 18px;
+}
+.themes .icon{
+    top: 32px;
+    right: 23px;
+    position: absolute;
+    background: linear-gradient(45deg, #FF0092 0%, #FF00FE 100%);
+    padding: 6px;
+    border-radius: 100px;
+}
+.destxt{
+    position: absolute;
+    left: 23px;
+    top: 43px;
+    width: 180px;
+    font-size: 14px;
+}
+
+
+
+.img1{
+    background-image: url("/image/Bitmap.png");
+}
+
+
+
+/* Circle Page */
+.bgwidth{
+    margin:30px 38px auto ;
+}
+.suggestionmodule{
+
+}
+.suggestionmodule a{
+    font-size: 18px;
+    font-weight: 200;
+    
+}
+.suggestionmodule *{
+    
+}
+.timeadbt{
+
+}
+
+.timeadbt *{
+    display: inline;
+    
+}
+
+.suggestedtime{
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+.adapticon{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 15px;
+    float: right;
+    background: linear-gradient(45deg, rgba(255,0,207,1) 0%, rgba(255,0,254,1) 100%);
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 100px;
+}
+.timesuggest{
+
+}
+.timesuggest:nth-child(3){
+    float: right;
+}
+.timesuggest *{
+    display: inline;
+}
+
+
+/* Editing */
+.editingcard{
+    position: relative;
+    margin-top: 350px;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 24px;
+    background: linear-gradient(180deg, rgba(67,26,185,1) 0%, rgba(15,2,17,1) 100%);
+
+}
+.carcon_edit{
+    position: absolute;
+    left: 50%; 
+    top: 18px;
+    transform: translate(-50%, 0%);
+    
+    width: 85%;
+
+    
+}
+.carcon_edit *{
+    position: absolute;
+    background: linear-gradient(45deg, #FF0092 0%, #FF00FE 100%);
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 100px;
+    top: 3px;
+
+}
+.states{
+    position: absolute;
+    right: 0px;
+}
+.titile_edit{
+    position: absolute;
+    top: 22px;
+    left: 30px;
+    font-weight: bold;
+
+}
+.editingcard{
+    font-weight: 200;
+}
+.ctn1{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    
+}
+
+.ctn2{
+    position: absolute;
+    top: 147px;
+    left: 30px;
+    
+}
+.icon_edit{
+    top: 95px;
+    left: 30px;
+    position: absolute;
+    background: linear-gradient(45deg, #FF0092 0%, #FF00FE 100%);
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+.icon2_edit{
+    top: 95px;
+    left: 74px;
+    position: absolute;
+    background: linear-gradient(45deg, #FF0092 0%, #FF00FE 100%);
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+.editingcard a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.colorbar{
+    top: 190px;
+    left: 30px;
+    position: absolute;
+    width: 248px;
+    height: 30px;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(107,252,0,1) 32%, rgba(0,255,239,1) 65%, rgba(201,0,255,1) 100%);
+    border-radius: 100px;
+}
+.colorselect{
+    top: 186px;
+    left: 190px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgb(63, 194, 255);
+
+    border: 6px solid white;
+    border-radius: 100px;
+
+    z-index: 9;
+}
+.ctn3{
+    position: absolute;
+    top: 250px;
+    left: 30px;
+    
+}
+.brtnsbar{
+    top: 293px;
+    left: 30px;
+    position: absolute;
+    width: 248px;
+    height: 30px;
+    background: linear-gradient(90deg, rgba(63,194,255,1) 0%, rgba(255,255,255,1) 100%);
+    border-radius: 100px;
+}
+.brtnsselect{
+    top: 289px;
+    left: 100px;
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: rgb(77, 199, 255);
+
+    border: 6px solid white;
+    border-radius: 100px;
+
+    z-index: 9;
+}
+.spot{
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 180px;
+    left: 100px;
+    background:  rgb(252, 255, 63);
+    border-radius: 100px;
+    border: 4px solid rgba(63,194,255,1);
+}
+.spot2{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 250px;
+    left: 140px;
+    background:  rgb(242, 255, 63);
+    border-radius: 100px;
+}
+
+.slider{
+
+    text-align: center;
+    position: absolute;
+    width: 81%;
+    top: 175px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+}
+.slider2{
+
+    text-align: center;
+    position: absolute;
+    width: 81%;
+    top: 280px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+
+}
+.ringcenter{
+    position: relative;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+
+}
+.times{
+    margin-top: -60px;
+}
+.bed{
+    display: inline-block;
+    margin-right: 90px;
+    text-align: left;
+}
+.indicator{
+    font-weight: 200;
+    font-size: 16px;
+}
+.wake{
+    display: inline-block;
+    text-align: left;
+}
+
+.time{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.circ{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.inmidle{
+    color: white;
+
+    position: absolute; 
+    left: 50%;
+    transform: translate(-35%, 0%);
+    top: 210px;
+}
+.inmidle *{
+    display: inline;
+
+}
+.hour{
+    font-size: 80px;
+    letter-spacing: 12px;
+    font-weight: bold;
+}
